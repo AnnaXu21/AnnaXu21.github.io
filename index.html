@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lato:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+          
+            <div class="intro__left">
+              <div class="top__img">
+                <img src="img/homeimg.jpg" alt="a picture of rosen drinking coffee" class="intro__img">
+              </div>
+              <!-- <div class="bottom__img">
+                <img src="img/portfolio-02.jpg" alt="a picture of Jane Smith smiling" class="intro__img">
+              </div>   -->
+            </div> 
+
+            <div class = "intro__right">
+              <h1 class="section__title intro__title">
+                 Exclusive Web Design
+              </h1>
+              <div class="intro__content">
+                  <p>
+                    I create websites that make your perfect services even better and show up your specialties. So you can focus on serving your clients.
+                  
+                    If you serve diverse audiences from around the world and are all about empowering your clients to reach their goals while embracing all of their identities, we should talk.
+                  </p>
+              </div>
+              
+        
+            </div> 
+
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">How I Can Help</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Web Design</h3>
+                    <p>I enjoy tailoring web design to clients by understanding their industries, analyzing their official websites, and most importantly, their demands.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Web Develepment</h3>
+                    <p>Safe creation and maintenance of websites with Node.js, Express, mongoDB, etc. Or I can get hands on your tools in a short time.</p>
+                </div> <!-- / service -->
+                
+                <!-- 
+                <div class="service">
+                    <h3>WordPress</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> --> 
+            </div> 
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Web Designer & Developer based in Germany</p>
+           
+           <div class="about-me__body">
+               <p>I am Mengxin. I am ready to start my journey to be a web designer/developer.</p>
+               <p>I consider myself a "forever student", am eager to stay in tune with the latest web development techniques through continued coursework and professional growth.</p>
+           </div>
+           <!-- <ul class="toolkit-list"> My toolkit:
+                <li class="toolkit-list__item">
+                    <i class="fab fa-js"></i> 
+                </li>
+                <li class="toolkit-list__item">
+                    <i class="fab fa-node-js"></i>
+                </li>
+                <li class="toolkit-list__item">
+                    <i class="fab fa-bootstrap"></i>
+                </li>
+                <li class="toolkit-list__item">
+                    <i class="fab fa-java"></i>
+                </li>
+                <li class="toolkit-list__item">
+                    <i class="fab fa-python"></i>
+                </li>
+            </ul> -->
+           <img src="img/me.jpg" alt="photo of me" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolios">
+                <div class="card">
+                    <div class="content">
+                        <h2 class="title">Price Table</h2>
+                        <p class="copy">Check out all service packages and get your favourite</p>
+                        <a href="portfolio-item1.html" class="btn">Have a Look</a>
+                        
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2 class="title">Yelp Camp</h2>
+                        <p class="copy">Plan your next trip with great campgrounds</p>
+                        <a href="portfolio-item2.html" class="btn">Have a Look</a>
+                    </div>
+                </div>
+                <!-- <div class="card">
+                    <div class="content">
+                        <h2 class="title">Desert Destinations</h2>
+                        <p class="copy">It's the desert you've always dreamed of</p><button class="btn">Book Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2 class="title">Explore The Galaxy</h2>
+                        <p class="copy">Seriously, straight up, just blast off into outer space today</p><button class="btn">Book Now</button>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:m.xu2021@outlook.com" class="footer__link">mx.xu2021@outlook.com</a>
+            
+        </footer>
+
+        
+    </body>
+</html>
