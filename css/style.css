@@ -97,10 +97,6 @@ span { font-weight: var(--fw-bold) }
     border: none;
   } */
 
-
-  
-
-
 /* Typography */
 
 h1,
@@ -190,8 +186,6 @@ header {
 .nav__link:hover, .nav__link:focus {
     color: var(--clr-accent);
 }
-
-
 
 /*  Intro section  */
 
